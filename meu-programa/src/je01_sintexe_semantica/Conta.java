@@ -9,6 +9,5 @@ public class Conta {
 
     public void imprimirSaldo(){
         System.out.println(saldo);
-        System.out.println(novoSaldo);
     }
 }
