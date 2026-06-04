@@ -17,7 +17,6 @@ public class AboutMe {
 
     try {
          age = scanner.nextInt();
-
     }catch (InputMismatchException e){
         System.out.println("A idade deve ser um número!");
     }
