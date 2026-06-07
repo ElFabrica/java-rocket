@@ -1,19 +1,10 @@
 package je13_pilares_poo;
 
-public class MSNMessenger {
-
+public class MSNMessenger extends ServicoMensagemInstantanea{
     public void enviarMensagem() {
-        validarContectadoInterter();
-        System.out.println("Enviando mensagem");
+        System.out.println("Enviando mensagem pelo MSN Messenger");
     }
-    public void receberMensagem(){
-        salvarHistoricoMensagem();
-        System.out.println("Recebendo mensagem");
-    }
-    private void validarContectadoInterter(){
-        System.out.println("Validado");
-    }
-    private  void salvarHistoricoMensagem(){
-        System.out.println("Salvando o histórico da mensagem");
+    public void receberMensagem() {
+        System.out.println("Recebendo mensagem pelo MSN Messenger");
     }
 }
