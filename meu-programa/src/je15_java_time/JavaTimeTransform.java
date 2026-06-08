@@ -10,7 +10,7 @@ public class JavaTimeTransform
         LocalDate data = LocalDate.of(2023, 1, 24);
 
         LocalDateTime dataHora = data.atTime(16,31,27); //2023-01-24T16:31:27
-
+        System.out.println(dataHora);
         dataHora = data.atTime(LocalTime.of(16,31,27)); //2023-01-24T16:31:27
         System.out.println(dataHora);
 
