@@ -12,7 +12,7 @@ public class Cadastro {
 
         // este construtor é somente para ilustrar este exemplo
         // evite propagar esta estratégia ao longo dos seus estudos e projetos
-        public Contato(String nome, String sexo, Long telefone, LocalDate dataNascimento, Double valorSugerido, boolean cliente) {
+        public Cadastro(String nome, String sexo, Long telefone, LocalDate dataNascimento, Double valorSugerido, boolean cliente) {
             this.nome = nome;
             this.sexo = sexo;
             this.telefone = telefone;
